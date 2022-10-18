@@ -23,3 +23,4 @@ cask '1password'
 # intall from app store
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Dark Mode for Safari', id: 1397180934
+mas '1Password for Safari', id: 1569813296
