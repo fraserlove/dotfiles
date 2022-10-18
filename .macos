@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # close any system preference windows first
 osascript -e 'tell application "System Preferences" to quit'
@@ -7,15 +7,12 @@ osascript -e 'tell application "System Preferences" to quit'
 sudo -v
 
 # stay root
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 
-2>/dev/null &
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
 # Enable Firewall
-sudo /usr/libexec/ApplicationFirewall/socketfilterfw 
---setglobalstate on
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
 
-osascript -e 'tell application "Finder" to set desktop picture to 
-POSIX file "./wallpaper.png"'
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/fraser/wallpaper.png"'

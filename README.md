@@ -5,7 +5,7 @@ Apply MacOS settings:
 
 Move dot files into home folder:
 ```
-mv -t $HOME .alacritty.yml .config .gitconfig
+mv -t $HOME .alacritty.yml .config .gitconfig wallpaper.png
 ```
 
 Install  Xcode Command Line Tools (i.e. clang, gcc, git, 
