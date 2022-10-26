@@ -20,7 +20,6 @@ cask 'visual-studio-code'
 cask 'alacritty'
 cask 'miktex-console'
 cask '1password'
-cask 'orion'
 cask 'raycast'
 
 # intall from app store
