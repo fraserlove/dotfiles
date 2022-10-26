@@ -13,6 +13,7 @@ brew 'wget'
 brew 'node'
 brew 'vim'
 brew 'tmux'
+brew 'rust'
 
 # install casks
 cask 'spotify'
