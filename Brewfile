@@ -20,6 +20,7 @@ cask 'visual-studio-code'
 cask 'alacritty'
 cask 'miktex-console'
 cask '1password'
+cask 'orion'
 
 # intall from app store
 mas 'AdGuard for Safari', id: 1440147259
