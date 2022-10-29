@@ -26,3 +26,4 @@ cask 'raycast'
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Dark Mode for Safari', id: 1397180934
 mas '1Password for Safari', id: 1569813296
+mas 'Grammarly for Safari', id: 1462114288
