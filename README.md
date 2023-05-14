@@ -27,5 +27,5 @@ brew bundle
 
 Install selected Python packages with pip:
 ```
-python3 -m pip install numpy matplotlib flask notebook
+python3 -m pip install -r requirements.txt
 ```
