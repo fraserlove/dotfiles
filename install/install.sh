@@ -27,4 +27,4 @@ omf install pure
 omf theme pure
 
 # install Python packages using pip
-pip3 install numpy scipy sympy pandas matplotlib pygame flask notebook pytorch
+pip3 install numpy scipy sympy pandas matplotlib pygame flask notebook torch
