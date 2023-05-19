@@ -19,7 +19,7 @@ git clone https://github.com/fraserlove/macos-dotfiles.git ~/.dotfiles
 3. Change into the `.dotfiles` directory and run `install.sh`:
 ```
 cd ~/.dotfiles
-chmod +x install.sh
+chmod +x install/install.sh
 ./install/install.sh
 ```
 
