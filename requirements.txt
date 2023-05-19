@@ -1,7 +1,0 @@
-numpy
-scipy
-sympy
-pygame
-matplotlib
-flask
-notebook
