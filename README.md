@@ -13,7 +13,7 @@ xcode-select --install
 
 2. Clone the repository to your home directory:
 ```
-git clone https://github.com/fraserlove/dotfiles-macos.git ~/.dotfiles
+git clone https://github.com/fraserlove/macos-dotfiles.git ~/.dotfiles
 ```
 
 3. Change into the `.dotfiles` directory and run `install.sh`:
