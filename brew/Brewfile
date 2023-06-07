@@ -22,6 +22,7 @@ cask 'alacritty'
 cask 'miktex-console'
 cask '1password'
 cask 'raycast'
+cask 'logi-options-plus'
 
 # install apps from App Store
 mas 'AdGuard for Safari', id: 1440147259
