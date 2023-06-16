@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/bin/zsh
 
 # install Homebrew (if not already installed)
 if ! command -v brew >/dev/null; then
-    /bin/bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/fraser/.profile
+    eval "$(/usr/local/bin/brew shellenv)"
 fi
 
 # install command-line tools and applications using Homebrew
@@ -25,6 +27,11 @@ curl -L https://get.oh-my.fish | fish
 # set the default theme to pure
 omf install pure
 omf theme pure
+
+# install fonts needed in theme
+git clone https://github.com/powerline/fonts.git --depth=1
+./fonts/install.sh
+rm -rf fonts
 
 # install Python packages using pip
 pip3 install numpy scipy sympy pandas matplotlib pygame flask notebook torch virtualenv
