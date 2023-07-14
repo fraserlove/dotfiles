@@ -33,7 +33,4 @@ git clone https://github.com/powerline/fonts.git --depth=1
 ./fonts/install.sh
 rm -rf fonts
 
-# install Python packages using pip
-pip3 install numpy scipy sympy pandas matplotlib pygame flask notebook torch virtualenv
-
 echo 'Installation Complete.'
