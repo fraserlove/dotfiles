@@ -14,13 +14,13 @@ brew 'tree'
 brew 'vim'
 brew 'wget'
 brew 'yarn'
+brew 'pyenv'
 
 # install casks
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'alacritty'
 cask 'miktex-console'
-cask '1password'
 cask 'raycast'
 cask 'logi-options-plus'
 cask 'obs'
@@ -28,4 +28,3 @@ cask 'obs'
 # install apps from App Store
 mas 'AdGuard for Safari', id: 1440147259
 mas 'Noir', id: 1592917505
-mas '1Password for Safari', id: 1569813296
