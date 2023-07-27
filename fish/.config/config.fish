@@ -7,7 +7,7 @@ if status is-interactive
 
     function docs
         set user $HOME
-        cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Documents
+        cd $HOME/Documents
     end
 
     function downloads
@@ -21,6 +21,10 @@ if status is-interactive
     end
 
     function notebook
-        jupyter-notebook
+        jupyter notebook
     end
 end
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
