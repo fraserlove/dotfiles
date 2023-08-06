@@ -33,4 +33,7 @@ git clone https://github.com/powerline/fonts.git --depth=1
 ./fonts/install.sh
 rm -rf fonts
 
+# install python
+pyenv install 3.10
+
 echo 'Installation Complete.'
