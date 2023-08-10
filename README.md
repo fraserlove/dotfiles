@@ -1,9 +1,7 @@
-# macOS Dotfiles
-
-This repository contains my personal dotfiles for macOS. The script below can be used to install the relevant packages and applications, change various macOS settings based on my preferences and link dotfiles for customisation.
+# MacOS Dotfiles
+This repository contains my dotfiles for macOS. The script below can be used to install the relevant packages and applications, change various macOS settings based on my preferences and link dotfiles for customisation.
 
 ## Installation
-
 To use these dotfiles on your own macOS system, follow these steps:
 
 1. Install Apple's command-line tools, prerequisites for Git and Homebrew:
