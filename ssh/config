@@ -1,0 +1,20 @@
+Host fraser.love
+  User root
+  IdentityFile ~/.ssh/id_rsa
+  AddKeysToAgent yes
+  UseKeychain yes
+
+# =============== STACS ===============
+
+# Default CS user
+Match Host *.cs.st-andrews.ac.uk
+  User frl1
+  IdentityFile ~/.ssh/id_rsa
+  AddKeysToAgent yes
+  UseKeychain yes
+
+# Use jump host for CS hosts (except jump host)
+Match Host !jump.cs.st-andrews.ac.uk,*.cs.st-andrews.ac.uk
+  ProxyJump jump.cs.st-andrews.ac.uk
+
+# =====================================
