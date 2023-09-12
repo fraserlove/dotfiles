@@ -11,6 +11,7 @@ fi
 brew bundle --file ~/.dotfiles/brew/Brewfile
 
 # create symbolic links for dotfiles
+ln -sf ~/.dotfiles/ssh/ ~/.ssh
 ln -sf ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/install/.macos ~/.macos
 ln -sf ~/.dotfiles/alacritty/.alacritty.yml ~/.alacritty.yml
