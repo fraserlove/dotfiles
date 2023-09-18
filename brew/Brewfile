@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask'
 
 # install packages
-brew 'cmake'
 brew 'fish'
 brew 'node'
 brew 'gtop'
@@ -23,6 +22,7 @@ cask 'miktex-console'
 cask 'raycast'
 cask 'logi-options-plus'
 cask 'obs'
+cask 'julia'
 
 # install apps from App Store
 # mas 'AdGuard for Safari', id: 1440147259
