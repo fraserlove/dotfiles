@@ -13,6 +13,9 @@ brew 'tree'
 brew 'wget'
 brew 'yarn'
 brew 'pyenv'
+# required for manim
+brew 'py3cairo'
+brew 'ffmpeg'
 
 # install casks
 cask 'spotify'
