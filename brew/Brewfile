@@ -26,6 +26,7 @@ cask 'raycast'
 cask 'logi-options-plus'
 cask 'obs'
 cask 'julia'
+cask 'messenger'
 
 # install apps from App Store
 # mas 'AdGuard for Safari', id: 1440147259
