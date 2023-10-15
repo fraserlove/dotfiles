@@ -17,6 +17,7 @@ brew 'pyenv'
 brew 'py3cairo'
 brew 'ffmpeg'
 brew 'portaudio'
+brew 'sox'
 
 # install casks
 cask 'spotify'
