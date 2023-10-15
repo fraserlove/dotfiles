@@ -16,6 +16,7 @@ brew 'pyenv'
 # required for manim
 brew 'py3cairo'
 brew 'ffmpeg'
+brew 'portaudio'
 
 # install casks
 cask 'spotify'
