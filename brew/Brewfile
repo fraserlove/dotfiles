@@ -29,6 +29,7 @@ cask 'logi-options-plus'
 cask 'obs'
 cask 'julia'
 cask 'messenger'
+cask 'obsidian'
 
 # install apps from App Store
 # mas 'AdGuard for Safari', id: 1440147259
