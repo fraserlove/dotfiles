@@ -5,19 +5,18 @@ tap 'homebrew/cask'
 
 # install packages
 brew 'fish'
-brew 'node'
 brew 'gtop'
-brew 'mas'
 brew 'neofetch'
 brew 'tree'
 brew 'wget'
-brew 'yarn'
+brew 'graphviz'
 brew 'pyenv'
-# required for manim
-brew 'py3cairo'
-brew 'ffmpeg'
-brew 'portaudio'
-brew 'sox'
+brew 'gh'
+brew 'openjdk'
+brew 'py3cairo' # required for manim
+brew 'ffmpeg' # required for manim
+brew 'portaudio' # required for manim
+brew 'sox' # required for manim
 
 # install casks
 cask 'spotify'
@@ -29,10 +28,4 @@ cask 'logi-options-plus'
 cask 'obs'
 cask 'julia'
 cask 'messenger'
-cask 'obsidian'
 cask 'transmission'
-cask 'grammarly'
-
-# install apps from App Store
-# mas 'AdGuard for Safari', id: 1440147259
-# mas 'Noir', id: 1592917505
