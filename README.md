@@ -24,13 +24,14 @@ chmod +x install/install.sh
 This will create symbolic links from the dotfiles in this repository to their corresponding locations in your home directory. It will also install various command-line tools and applications using Homebrew.
 
 
-4. Update the file icon for Alacritty.
+1. Update the file icons (terminal icon from https://github.com/jasonlong/iterm2-icons.git).
 ```
-git clone https://github.com/jasonlong/iterm2-icons.git
+cd icons/
+./macos-icons-updater.sh
 ```
 Next go to Applications, press ⌘ + I, and drag and drop an icon file onto the application icon.
 
-5. Restart your terminal application to see the changes take effect.
+1. Restart your terminal application to see the changes take effect.
 
 ## Usage
 
