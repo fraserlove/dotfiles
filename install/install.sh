@@ -14,7 +14,7 @@ brew bundle --file ~/.dotfiles/brew/Brewfile
 ln -sf ~/.dotfiles/ssh/ ~/.ssh
 ln -sf ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/install/.macos ~/.macos
-ln -sf ~/.dotfiles/alacritty/.alacritty.yml ~/.alacritty.yml
+ln -sf ~/.dotfiles/alacritty/.alacritty.toml ~/.alacritty.toml
 ln -sf ~/.dotfiles/fish/.config/ ~/.config/
 ln -sf ~/.dotfiles/neofetch/config.conf ~/.config/neofetch/config.conf
 

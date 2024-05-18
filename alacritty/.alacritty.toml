@@ -1,0 +1,70 @@
+[colors.bright]
+black = "#666666"
+blue = "#A1BDFF"
+cyan = "#A1BDFF"
+green = "#A1BDFF"
+magenta = "#D66E86"
+red = "#D66E86"
+white = "#DFDFDF"
+yellow = "#997CD5"
+
+[colors.normal]
+black = "#000000"
+blue = "#997CD5"
+cyan = "#A1BDFF"
+green = "#A1BDFF"
+magenta = "#D66E86"
+red = "#D66E86"
+white = "#DFDFDF"
+yellow = "#997CD5"
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[font]
+size = 11.5
+
+[font.bold]
+family = "Meslo LG S for Powerline"
+style = "Bold"
+
+[font.bold_italic]
+family = "Meslo LG S for Powerline"
+style = "Bold Italic"
+
+[font.italic]
+family = "Meslo LG S for Powerline"
+style = "Italic"
+
+[font.normal]
+family = "Meslo LG S for Powerline"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "#"
+key = "Key3"
+mods = "Alt"
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[shell]
+args = ["--login"]
+program = "/usr/local/bin/fish"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = true
+dynamic_title = true
+opacity = 1
+title = "Terminal"
+
+[window.padding]
+x = 25
+y = 15

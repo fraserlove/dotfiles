@@ -38,7 +38,7 @@ Next go to Applications, press ⌘ + I, and drag and drop an icon file onto the 
 This repository contains dotfiles for various applications and settings, including:
 
 -   Fish shell configuration (`~/.config/`)
--   Alacritty configuration (`~/.alacritty.yml`)
+-   Alacritty configuration (`~/.alacritty.toml`)
 -   Neofetch configuration (`.config/neofetch/config.conf`)
 -   Git configuration (`~/.gitconfig`)
 -   macOS defaults (`~/.macos`)

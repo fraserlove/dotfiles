@@ -9,20 +9,6 @@ if status is-interactive
         set user $HOME
         cd $HOME/Documents
     end
-
-    function downloads
-        set user $HOME
-        cd $HOME/Downloads
-    end
-
-    function desktop
-        set user $HOME
-        cd $HOME/Desktop
-    end
-
-    function notebook
-        jupyter notebook
-    end
 end
 
 export PYENV_ROOT="$HOME/.pyenv"
