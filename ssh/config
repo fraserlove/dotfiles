@@ -19,6 +19,12 @@ Host stacs
   User frl1
   ProxyJump jump.cs.st-andrews.ac.uk
 
+# Alias for gpu-pc-10.cs.st-andrews.ac.uk
+Host gpu
+  HostName gpu-pc-10.cs.st-andrews.ac.uk
+  User frl1
+  ProxyJump jump.cs.st-andrews.ac.uk
+
 # Use jump host for CS hosts (except jump host)
 Host !jump.cs.st-andrews.ac.uk *.cs.st-andrews.ac.uk
   ProxyJump jump.cs.st-andrews.ac.uk
