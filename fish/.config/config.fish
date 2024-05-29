@@ -14,3 +14,9 @@ end
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+set -gx LDFLAGS (brew --prefix openssl)/lib
+set -gx CPPFLAGS (brew --prefix openssl)/include
+set -gx LDFLAGS "-L/usr/local/opt/zlib/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/zlib/include"
+set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig"
