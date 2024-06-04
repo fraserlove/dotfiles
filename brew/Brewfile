@@ -12,6 +12,7 @@ brew 'wget'
 brew 'graphviz'
 brew 'pyenv'
 brew 'gh'
+brew 'mas'
 brew 'openjdk'
 brew 'py3cairo' # required for manim
 brew 'ffmpeg' # required for manim
@@ -28,6 +29,9 @@ cask 'logi-options-plus'
 cask 'microsoft-teams'
 cask 'obs'
 cask 'steam'
+cask 'minecraft'
 cask 'julia'
 cask 'messenger'
 cask 'transmission'
+
+mas 'DaVinci Resolve', id: 571213070
