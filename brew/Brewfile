@@ -35,3 +35,4 @@ cask 'messenger'
 cask 'transmission'
 
 mas 'DaVinci Resolve', id: 571213070
+mas 'Reeder', id: 1529448980
