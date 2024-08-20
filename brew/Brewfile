@@ -32,6 +32,7 @@ cask 'minecraft'
 cask 'julia'
 cask 'messenger'
 cask 'transmission'
+cask 'docker'
 
 mas 'DaVinci Resolve', id: 571213070
 mas 'Reeder', id: 1529448980
