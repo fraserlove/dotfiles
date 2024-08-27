@@ -30,19 +30,19 @@ shape = "Block"
 size = 11.5
 
 [font.bold]
-family = "Meslo LG S for Powerline"
+family = "MesloLGS NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "Meslo LG S for Powerline"
+family = "MesloLGS NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "Meslo LG S for Powerline"
+family = "MesloLGS NF"
 style = "Italic"
 
 [font.normal]
-family = "Meslo LG S for Powerline"
+family = "MesloLGS NF"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -54,17 +54,10 @@ mods = "Alt"
 save_to_clipboard = false
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 
-[shell]
-args = ["--login"]
-program = "/usr/local/bin/fish"
-
 [window]
-decorations = "buttonless"
+padding = { x = 20, y = 20 }
+decorations = "Buttonless"
 dynamic_padding = true
 dynamic_title = true
 opacity = 1
 title = "Terminal"
-
-[window.padding]
-x = 25
-y = 15
