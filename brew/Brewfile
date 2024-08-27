@@ -7,6 +7,7 @@ brew 'btop'
 brew 'neofetch'
 brew 'tree'
 brew 'wget'
+brew 'pyenv'
 
 # install casks
 cask 'docker'
