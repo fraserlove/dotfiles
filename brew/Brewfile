@@ -15,6 +15,7 @@ cask 'spotify'
 cask 'adguard'
 cask 'chatgpt'
 cask 'alacritty'
+cask 'logitech-options'
 cask 'visual-studio-code'
 
 # install vscode plugins
