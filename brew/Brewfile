@@ -12,6 +12,7 @@ brew 'pyenv'
 # install casks
 cask 'docker'
 cask 'spotify'
+cask 'adguard'
 cask 'chatgpt'
 cask 'alacritty'
 cask 'visual-studio-code'
