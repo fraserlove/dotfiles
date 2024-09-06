@@ -11,6 +11,7 @@ brew 'pyenv'
 
 # install casks
 cask 'docker'
+cask 'cursor'
 cask 'spotify'
 cask 'adguard'
 cask 'chatgpt'
