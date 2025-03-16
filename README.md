@@ -1,4 +1,4 @@
-# MacOS Dotfiles
+# Dotfiles
 This repository contains my dotfiles for macOS. The script below can be used to install the relevant packages and applications, change various macOS settings based on my preferences and link dotfiles for customisation.
 
 ## Installation
