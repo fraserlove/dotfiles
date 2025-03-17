@@ -3,3 +3,7 @@
 	email = me@fraser.love
 [init]
 	defaultBranch = main
+[credential]
+        helper = osxkeychain
+[http]
+        postBuffer = 524288000
