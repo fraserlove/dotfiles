@@ -9,7 +9,7 @@ brew 'tree'
 brew 'wget'
 brew 'pyenv'
 
-# install casks
+# install apps
 cask 'docker'
 cask 'cursor'
 cask 'spotify'
@@ -17,4 +17,3 @@ cask 'adguard'
 cask 'chatgpt'
 cask 'alacritty'
 cask 'logitech-options'
-cask 'visual-studio-code'
