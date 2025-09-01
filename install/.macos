@@ -19,5 +19,3 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write com.apple.dock autohide-time-modifier -float 0.6
 defaults write com.apple.dock autohide-delay -float 0
 killall Dock
-
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/.dotfiles/res/wallpaper.png"'
