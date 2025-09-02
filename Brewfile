@@ -10,7 +10,6 @@ brew 'wget'
 brew 'pyenv'
 
 # install apps
-cask 'docker'
 cask 'cursor'
 cask 'spotify'
 cask 'adguard'
