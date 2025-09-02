@@ -11,7 +11,6 @@ brew 'pyenv'
 
 # install apps
 cask 'cursor'
-cask 'spotify'
 cask 'adguard'
 cask 'chatgpt'
 cask 'whatsapp'
