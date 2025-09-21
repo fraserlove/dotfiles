@@ -1,13 +1,10 @@
-tap 'homebrew/bundle'
-
 # install packages
 brew 'fish'
-brew 'fisher'
 brew 'btop'
-brew 'neofetch'
 brew 'tree'
-brew 'wget'
 brew 'pyenv'
+brew 'fisher'
+brew 'neofetch'
 
 # install apps
 cask 'cursor'
@@ -16,3 +13,6 @@ cask 'chatgpt'
 cask 'whatsapp'
 cask 'alacritty'
 cask 'appcleaner'
+
+# mac app store apps (requires `mas`)
+# mas "Xcode", id: 497799835

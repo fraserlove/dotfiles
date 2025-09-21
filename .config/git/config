@@ -1,0 +1,12 @@
+[user]
+    name = Fraser Love
+    email = me@fraser.love
+
+[credential]
+    helper = osxkeychain
+
+[core]
+    excludesfile = ~/.gitignore_global
+
+[init]
+    defaultBranch = main
