@@ -9,6 +9,7 @@ xcode-select --install 2>/dev/null || echo 'Xcode Command Line Tools already ins
 
 echo 'Installing Homebrew...'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo 'Installing packages from brewfile...'
 brew bundle --file=./Brewfile

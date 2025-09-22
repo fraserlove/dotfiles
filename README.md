@@ -9,4 +9,4 @@ cd dotfiles
 chmod +x install.sh
 ./install.sh
 ```
-This repository can now be deleted using `cd .. && rm -rf dotfiles`.
+Once complete, perform a restart. This repository can now be deleted using `cd .. && rm -rf dotfiles`.
