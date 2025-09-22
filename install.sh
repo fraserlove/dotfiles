@@ -41,6 +41,20 @@ if ! grep -q "/opt/homebrew/bin/fish" /etc/shells; then
 fi
 chsh -s /opt/homebrew/bin/fish
 
+echo "Replacing Alacritty icon with terminal icon..."
+ALACRITTY_APP="/Applications/Alacritty.app"
+TERMINAL_ICON="/System/Applications/Utilities/Terminal.app/Contents/Resources/Terminal.icns"
+ALACRITTY_ICON="$ALACRITTY_APP/Contents/Resources/alacritty.icns"
+if [ -d "$ALACRITTY_APP" ]; then
+    echo "Copying Terminal icon to Alacritty..."
+    sudo cp "$TERMINAL_ICON" "$ALACRITTY_ICON"
+    sudo touch "$ALACRITTY_APP"
+    killall Dock &>/dev/null || true
+    echo "Alacritty icon replaced successfully."
+else
+    echo "Alacritty.app not found in /Applications. Skipping icon replacement."
+fi
+
 echo 'Done. Perform a restart to apply changes.'
 
 rm -rf "$(dirname "$0")"
