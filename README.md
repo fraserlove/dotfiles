@@ -11,4 +11,4 @@ chmod +x install.sh
 ```
 Once complete, perform a restart. This repository will self-delete after installation is complete.
 
-> **Note:** You'll need to authenticate with a **personal access token (PAT)** when performing an initial push to a repository. This token will be securely stored in the macOS **Keychain** via the `osxkeychain` credential helper.
+> **Note:** You'll need to authenticate with a **personal access token (PAT)** when performing an initial push to a GitHub repository. This token will be securely stored in the macOS **Keychain** via the `osxkeychain` credential helper.
