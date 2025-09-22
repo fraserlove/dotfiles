@@ -16,7 +16,7 @@ brew bundle --file=./Brewfile
 
 echo 'Copying config files to ~/.config...'
 mkdir -p "$HOME/.config"
-for dir in .config/*; do
+for dir in config/*; do
     dest="$HOME/.config/$(basename "$dir")"
     [ -e "$dest" ] && rm -rf "$dest"
     cp -r "$dir" "$dest"
