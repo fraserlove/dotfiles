@@ -41,4 +41,6 @@ if ! grep -q "/opt/homebrew/bin/fish" /etc/shells; then
 fi
 chsh -s /opt/homebrew/bin/fish
 
-echo 'Done. You can now delete this repo.'
+echo 'Done. Perform a restart to apply changes.'
+
+rm -rf "$(dirname "$0")"
