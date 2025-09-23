@@ -1,0 +1,27 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Sequoia Moonlight",
+    "workbench.iconTheme": "chalice-icon-theme",
+    "editor.minimap.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+  
+    "workbench.colorCustomizations": {
+      "terminal.ansiBlack": "#000000",
+      "terminal.ansiRed": "#D66E86",
+      "terminal.ansiGreen": "#A1BDFF",
+      "terminal.ansiYellow": "#997CD5",
+      "terminal.ansiBlue": "#A1BDFF",
+      "terminal.ansiMagenta": "#D66E86",
+      "terminal.ansiCyan": "#A1BDFF",
+      "terminal.ansiWhite": "#DFDFDF",
+  
+      "terminal.ansiBrightBlack": "#666666",
+      "terminal.ansiBrightRed": "#D66E86",
+      "terminal.ansiBrightGreen": "#A1BDFF",
+      "terminal.ansiBrightYellow": "#997CD5",
+      "terminal.ansiBrightBlue": "#A1BDFF",
+      "terminal.ansiBrightMagenta": "#D66E86",
+      "terminal.ansiBrightCyan": "#A1BDFF",
+      "terminal.ansiBrightWhite": "#DFDFDF"
+    }
+}
