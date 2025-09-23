@@ -24,6 +24,28 @@ done
 
 touch "$HOME/.hushlogin"
 
+echo 'Installing cursor extensions...'
+ln -s "/Applications/Cursor.app/Contents/Resources/app/bin/cursor" /usr/local/bin/cursor
+EXTENSIONS=(
+  ms-python.python
+  wicked-labs.sequoia
+  artlaman.chalice-icon-theme
+)
+for ext in "${EXTENSIONS[@]}"; do
+  cursor --install-extension "$ext"
+done
+
+echo 'Changing cursor settings...'
+CURSOR_USER_SETTINGS="$HOME/Library/Application Support/Cursor/User/settings.json"
+CURSOR_CONFIG_SOURCE="$HOME/.config/cursor/settings.json"
+mkdir -p "$(dirname "$CURSOR_USER_SETTINGS")"
+# Remove existing settings.json if it exists and is not the correct symlink
+if [ -e "$CURSOR_USER_SETTINGS" ] && [ ! -L "$CURSOR_USER_SETTINGS" ]; then
+    rm "$CURSOR_USER_SETTINGS"
+fi
+# Symlink the config
+ln -sf "$HOME/.config/cursor/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
+
 echo 'Installing pure-fish/pure prompt...'
 fish -c "fisher install pure-fish/pure"
 
