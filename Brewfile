@@ -8,6 +8,7 @@ brew 'neofetch'
 
 # install apps
 cask 'cursor'
+cask 'mactex'
 cask 'adguard'
 cask 'chatgpt'
 cask 'whatsapp'
