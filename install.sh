@@ -29,6 +29,7 @@ ln -s "/Applications/Cursor.app/Contents/Resources/app/bin/cursor" /usr/local/bi
 EXTENSIONS=(
   ms-python.python
   wicked-labs.sequoia
+  james-yu.latex-workshop
   artlaman.chalice-icon-theme
 )
 for ext in "${EXTENSIONS[@]}"; do
