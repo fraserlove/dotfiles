@@ -23,5 +23,6 @@
       "terminal.ansiBrightMagenta": "#D66E86",
       "terminal.ansiBrightCyan": "#A1BDFF",
       "terminal.ansiBrightWhite": "#DFDFDF"
-    }
+    },
+    "latex-workshop.latex.autoClean.run": "onBuilt"
 }
